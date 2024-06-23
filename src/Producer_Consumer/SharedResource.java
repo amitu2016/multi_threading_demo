@@ -24,7 +24,7 @@ public class SharedResource {
 
     public synchronized int consume() throws InterruptedException {
        while (sharedBuffer.isEmpty()){
-           System.out.println("Buffer is empty. Waiting for producer to produce item!");
+           System.out.println("Buffer is empty. Waiting for produce to produce item!");
            wait();
        }
 
