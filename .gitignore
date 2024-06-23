@@ -27,3 +27,4 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+/.idea/runConfigurations/_template__of_Application.xml
