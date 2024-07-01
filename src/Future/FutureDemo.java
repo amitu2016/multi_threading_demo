@@ -37,5 +37,6 @@ public class FutureDemo {
         System.out.println("is Done: "+futureObj.isDone());
         System.out.println("is Cancelled: "+ futureObj.isCancelled());
 
+        poolExecutor.shutdown();
     }
 }

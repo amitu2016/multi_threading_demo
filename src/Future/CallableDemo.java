@@ -51,6 +51,8 @@ public class CallableDemo {
             throw new RuntimeException(e);
         }
 
+        poolExecutor.shutdown();
+
 
     }
 }
